@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="source/style.css">
 </head>
 
-<body>
+<body class="">
     <header>
         <nav class="page-nav">
             <a href="#"><img src="img/logo.svg" width="100" height="33" alt="Ботаника"></a>
@@ -28,8 +28,8 @@
                 <p>Оригинальные свежие букеты с доставкой по всему городу</p>
                 <a href="#">Смотреть каталог</a>
             </div>
-            <img src="img/pink_tulips.jpg" width="368" height="404" alt="букет тюльпанов">
-            <img src="img/roses_with_cloves.jpg" width="368" height="404" alt="букет роз">
+            <img src="img/pink_tulips.jpg" width="368" height="404" alt="Букет тюльпанов">
+            <img src="img/roses_with_cloves.jpg" width="368" height="404" alt="Букет роз">
         </section>
         <section>
             <!-- Заголовок ниже будет скрыт, указать в классе -->
@@ -69,24 +69,78 @@
             <span class="visually-hidden">Вперёд</span>
           </button>
         <section class="catalogue">
-            <a href="#">Свадебные букеты <br> Букеты для невесты</a> <a href="#">Букеты с пионами <br> Букеты с сезонными пионами </a> <a href="#">Выбрать букет <br> Букеты в ассортименте</a>
+            <h2 class="visually-hidden">Разделы каталога</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/wedding_bouquet.png" width="388" height="442" alt="Свадебный букет">
+                        <h3>Свадебные букеты</h3>
+                        <p>Букеты для невесты</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/peonies.jpg" width="387" height="442" alt="Букет с пионами">
+                        <h3>Букеты с пионами</h3>
+                        <p>Букеты с сезонными пионами</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/choose_bouquet.jpg" width="387" height="442" alt="Осенний букет">
+                        <h3>Выбрать букет</h3>
+                        <p>Букеты в ассортименте</p>
+                    </a>
+                </li>
+            </ul>
         </section>
         <section>
-            <h2>Скидка 10% <br> на первый заказ</h2>
+            <h2>Скидка 10% на первый заказ</h2>
             <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+            <img src="img/sale_bouquet.jpg" width="590" height="391" alt="Флорист собирает букет">
         </section>
         <section>
             <h2>4 шага к идеальному букету</h2>
             <ul>
-                <li>Заказ выберите понравившийся букет из каталога и оформите заказ</li>
-                <li>Уточнение деталей Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</li>
-                <li>Оплата Оплатить заказ можно онлайн на сайте или при получении</li>
-                <li>Доставка Курьер позвонит за час до прибытия и доставит заказ вовремя</li>
+                <li>
+                    <span>Заказ</span> Выберите понравившийся букет из каталога и оформите заказ</li>
+                <li>
+                    <span>Уточнение деталей</span> Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</li>
+                <li>
+                    <span>Оплата</span>Оплатить заказ можно онлайн на сайте или при получении</li>
+                <li>
+                    <span>Доставка</span> Курьер позвонит за час до прибытия и доставит заказ вовремя</li>
             </ul>
         </section>
         <section>
             <h2>Следите за нашими новостями</h2>
             <p>Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="visually-hidden">Инстаграм</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="visually-hidden">Фейсбук</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="visually-hidden">Твиттер</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="#">
+                <img src="img/farmer_bouquet.jpg" alt="Фермерский букет" width="285" height="220">
+            </a>
+            <a href="#">
+                <img src="img/pink_rose_bouquet.jpg" alt="Букет розовых роз" width="285" height="220">
+            </a>
+            <a href="#">
+                <img src="img/pink_cloves.jpg" alt="Букет розовых гвоздик" width="387" height="460">
+            </a>
         </section>
         <section>
             <h2>Отзывы</h2>
@@ -120,7 +174,7 @@
     </main>
     <footer>
         <section>
-            <img src="img/map.svg" width="1440" height="645" alt="Санкт-Петербург, ул. Большая Конюшенная, 19">
+            <img src="img/map.jpg" width="1440" height="645" alt="Санкт-Петербург, ул. Большая Конюшенная, 19">
         </section>
         <div>
             <h2>Мы ждем вас</h2>
@@ -133,47 +187,49 @@
             <p> Напишите нам:</p>
             <a href="mailto:info@botanika.ru">info@botanika.ru</a>
         </div>
-        <a href="#">
-            <img src="img/logo.svg" alt="Botanika" width="100" height="32">
-        </a>
-
-        <ul>
-            <li>
-                <a href="#">Каталог</a>
-            </li>
-            <li>
-                <a href="#">Доставка и оплата</a>
-            </li>
-            <li>
-                <a href="#">Отзывы</a>
-            </li>
-            <li>
-                <a href="#">Спецпредложения</a>
-            </li>
-            <li>
-                <a href="#">Контакты</a>
-            </li>
-            <li>
-                <a href="#">Корзина</a>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <a href="#">
-                    <span class="visually-hidden">Инстагhам</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="visually-hidden">Фейсбук</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="visually-hidden">Твиттер</span>
-                </a>
-            </li>
-        </ul>
+        <nav>
+            <a href="#">
+                <img src="img/logo.svg" alt="Botanika" width="100" height="32">
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Каталог</a>
+                </li>
+                <li>
+                    <a href="#">Доставка и оплата</a>
+                </li>
+                <li>
+                    <a href="#">Отзывы</a>
+                </li>
+                <li>
+                    <a href="#">Спецпредложения</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+                <li>
+                    <a href="#">Корзина</a>
+                </li>
+            </ul>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="visually-hidden">Инстаграм</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="visually-hidden">Фейсбук</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="visually-hidden">Твиттер</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </footer>
 </body>
