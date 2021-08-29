@@ -1,0 +1,184 @@
+
+/*с чего начать-то?*/
+.page {
+    color: #AE7C78;
+}
+.logo {
+    text-align: center;
+}
+.page-nav {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    
+    text-align: center;
+    
+border-top: 1px solid #AE7C78;
+border-bottom: 1px solid #AE7C78;
+}
+li {
+        list-style-type: none; 
+}
+
+
+h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    white-space: pre-line;
+    position: absolute;
+width: 384px;
+height: 118px;
+left: 120px;
+top: 171px;
+
+}
+.italic {
+    font-style: italic;
+}
+
+p.desc {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+position: absolute;
+width: 384px;
+height: 58px;
+left: 120px;
+top: 313px;
+}
+
+.tulips {
+position: absolute;
+width: 386px;
+height: 404px;
+left: 527px;
+top: 230px;
+
+border-radius: 10px
+}
+
+.roses-with-cloves {
+position: absolute;
+width: 387px;
+height: 420px;
+left: 933px;
+top: 172px;
+
+border-radius: 10px
+}
+
+a.button {
+border-radius: 40px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-align:center;
+
+color: #FFFFFF;
+}
+.button.go-catalogue {
+position: absolute;
+width: 285px;
+height: 80px;
+left: 120px;
+top: 435px;
+}
+
+.button.order {
+position: absolute;
+width: 285px;
+height: 80px;
+left: 324px;
+top: 1231px;
+}
+
+.visually-hidden {
+display: none;
+}
+
+.advantages-list {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+}
+h3.advantages-list {
+font-weight: 500;
+}
+
+.popular-product {
+font-family: Montserrat;
+font-style: normal;
+}
+h2.popular-product {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    letter-spacing: 0.02em;    
+}
+
+.catalogue {
+font-family: Playfair Display;
+font-style: normal;
+}
+
+.catalogue-item h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    letter-spacing: 0.02em;
+    
+}
+.catalogue-item p {
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+}
+
+.sale {
+position: absolute;
+width: 1200px;
+height: 391px;
+left: 120px;
+top: 2018px;
+
+background: #AE7C78;
+}
+
+.sale h2 {
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 59px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.sale p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}

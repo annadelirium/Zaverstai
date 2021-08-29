@@ -2,15 +2,19 @@
 <html lang="ru">
 
 <head>
+    <meta charset="utf-8">
     <title>Авторские букеты</title>
     <link rel="stylesheet" href="source/normalize.css">
     <link rel="stylesheet" href="source/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
-<body class="">
-    <header>
+<body class="page">
+    <header class=>
         <nav class="page-nav">
-            <a href="#"><img src="img/logo.svg" width="100" height="33" alt="Ботаника"></a>
+            <a class="logo" href="#"><img src="img/logo.svg" width="100" height="33" alt="Ботаника"></a>
             <ul class="nav-list">
                 <li class="nav-item"><a href="#">Каталог</a></li>
                 <li class="nav-item"><a href="#">Доставка и оплата</a></li>
@@ -22,14 +26,16 @@
         </nav>
     </header>
     <main>
-        <section class="">
-            <div class="">
-                <h1>Авторские букеты <i>в Петербурге</i></h1>
-                <p>Оригинальные свежие букеты с доставкой по всему городу</p>
-                <a href="#">Смотреть каталог</a>
+        <section class="main-content">
+            <div class="main-title">
+                <h1>Авторские букеты 
+                    <span class="italic">в Петербурге</span>
+                </h1>
+                <p class="desc">Оригинальные свежие букеты с доставкой по всему городу</p>
+                <a class="button go-catalogue" href="#">Смотреть каталог</a>
             </div>
-            <img src="img/pink_tulips.jpg" width="368" height="404" alt="Букет тюльпанов">
-            <img src="img/roses_with_cloves.jpg" width="368" height="404" alt="Букет роз">
+            <div class="tulips"><img src="img/pink_tulips.jpg" width="368" height="404" alt="Букет тюльпанов"></div>
+            <div class="roses-with-cloves"><img src="img/roses_with_cloves.jpg" width="368" height="404" alt="Букет роз"></div>
         </section>
         <section>
             <!-- Заголовок ниже будет скрыт, указать в классе -->
@@ -49,7 +55,7 @@
                 </li>
             </ul>
         </section>
-        <article>
+        <article class="popular-product">
             <h2>Популярные букеты</h2>
             <h3>Букет «Нежность»</h3>
             <p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
@@ -59,7 +65,7 @@
                 <dt class="visually-hidden">Цена</dt>
                 <dd>3600 руб.</dd>
             </dl>
-            <a href="#">Смотреть каталог</a>
+            <a class="button order" href="#">Заказать</a>
             <img src="img/tenderness.png" width="387" height="438" alt="Букет «Нежность»">
         </article>
         <button type="button">
@@ -70,22 +76,22 @@
           </button>
         <section class="catalogue">
             <h2 class="visually-hidden">Разделы каталога</h2>
-            <ul>
-                <li>
+            <ul class="catalogue-list">
+                <li class="catalogue-item">
                     <a href="#">
                         <img src="img/wedding_bouquet.png" width="388" height="442" alt="Свадебный букет">
                         <h3>Свадебные букеты</h3>
                         <p>Букеты для невесты</p>
                     </a>
                 </li>
-                <li>
+                <li class="catalogue-item">
                     <a href="#">
                         <img src="img/peonies.jpg" width="387" height="442" alt="Букет с пионами">
                         <h3>Букеты с пионами</h3>
                         <p>Букеты с сезонными пионами</p>
                     </a>
                 </li>
-                <li>
+                <li class="catalogue-item">
                     <a href="#">
                         <img src="img/choose_bouquet.jpg" width="387" height="442" alt="Осенний букет">
                         <h3>Выбрать букет</h3>
@@ -94,7 +100,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="sale">
             <h2>Скидка 10% на первый заказ</h2>
             <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
             <img src="img/sale_bouquet.jpg" width="590" height="391" alt="Флорист собирает букет">
