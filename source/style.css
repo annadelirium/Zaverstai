@@ -1,141 +1,103 @@
-
 /*с чего начать-то?*/
+
 .page {
     color: #AE7C78;
 }
+
 .logo {
     text-align: center;
 }
+
 .page-nav {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    
     text-align: center;
-    
-border-top: 1px solid #AE7C78;
-border-bottom: 1px solid #AE7C78;
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
 }
+
 li {
-        list-style-type: none; 
+    list-style-type: none;
 }
 
-
-h1{
+.main-title {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
     line-height: 59px;
     white-space: pre-line;
-    position: absolute;
-width: 384px;
-height: 118px;
-left: 120px;
-top: 171px;
-
 }
+
 .italic {
     font-style: italic;
 }
 
 p.desc {
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-
-position: absolute;
-width: 384px;
-height: 58px;
-left: 120px;
-top: 313px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .tulips {
-position: absolute;
-width: 386px;
-height: 404px;
-left: 527px;
-top: 230px;
-
-border-radius: 10px
+    border-radius: 10px
 }
 
-.roses-with-cloves {
-position: absolute;
-width: 387px;
-height: 420px;
-left: 933px;
-top: 172px;
-
-border-radius: 10px
-}
+.roses-with-cloves {}
 
 a.button {
-border-radius: 40px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-text-align:center;
-
-color: #FFFFFF;
-}
-.button.go-catalogue {
-position: absolute;
-width: 285px;
-height: 80px;
-left: 120px;
-top: 435px;
+    border-radius: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.button.order {
-position: absolute;
-width: 285px;
-height: 80px;
-left: 324px;
-top: 1231px;
-}
+.button.go-catalogue {}
+
+.button.order {}
 
 .visually-hidden {
-display: none;
+    display: none;
 }
 
 .advantages-list {
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
+
 h3.advantages-list {
-font-weight: 500;
+    font-weight: 500;
 }
 
 .popular-product {
-font-family: Montserrat;
-font-style: normal;
+    font-family: Montserrat;
+    font-style: normal;
 }
+
 h2.popular-product {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-
-    letter-spacing: 0.02em;    
+    letter-spacing: 0.02em;
 }
 
 .catalogue {
-font-family: Playfair Display;
-font-style: normal;
+    font-family: Playfair Display;
+    font-style: normal;
 }
 
 .catalogue-item h3 {
@@ -143,42 +105,131 @@ font-style: normal;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
-
     letter-spacing: 0.02em;
-    
 }
+
 .catalogue-item p {
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .sale {
-position: absolute;
-width: 1200px;
-height: 391px;
-left: 120px;
-top: 2018px;
-
-background: #AE7C78;
+    background: #AE7C78;
+    color: #FFFFFF;
 }
 
-.sale h2 {
-font-family: Playfair Display;
-font-style: normal;
-font-weight: normal;
-font-size: 44px;
-line-height: 59px;
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
+.sale-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
 }
-.sale p {
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
 
-color: #FFFFFF;
+.sale-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.steps-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.steps-list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.news-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+}
+
+.news-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.reviews {
+    border: 1px solid #AE7C78;
+}
+
+.reviews-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.reviews-list {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.reviews cite {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.contacts-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-list p,
+.contacts-list a,
+.contacts-list span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-list a,
+.contacts-list span {
+    font-weight: 500;
+}
+
+.footer-nav {
+    background: #AE7C78;
+}
+
+.footer-logo {
+    background: #FFFFFF;
+    text-align: center;
 }
